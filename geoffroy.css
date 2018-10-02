@@ -33,26 +33,14 @@
     font-family: merriweather;
 }
 
-.before_planet::before {
-    content: url(./media/earth_globe.png);
+.paragraphe {
+    display: flex;
 }
 
-.before_graduation::before {
-    content: url(./media/mortarboard.png);
+.paragraphe > div > img {
+    padding-right: 30px;
 }
 
-.before_image::before {
-    content: url(./media/attach.png);
-}
-
-.before_briefcase::before {
-    content: url(./media/briefcase.png);
-}
-
-.before_glob::before {
-    content: url(./media/globe.png);
-}
-
-.before_book::before {
-    content: url(./media/open_book.png)
+.container {
+    
 }
