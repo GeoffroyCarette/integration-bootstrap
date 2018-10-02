@@ -1,3 +1,29 @@
+@font-face {
+    font-family: merriweather;
+    src: url(./fonts/merriweather/Merriweather-Regular.woff);
+}
+
+@font-face {
+    font-family: merriweather_bold;
+    src: url(./fonts/merriweather/Merriweather-Bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: merriweather_light;
+    src: url(/fonts/merriweather/Merriweather-Light.woff);
+    font-weight: lighter;
+}   
+@font-face {
+font-family: opensans, sans-serif;
+    src: url(./fonts/open-sans/OpenSans-Regular.woff)
+
+} 
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(./fonts/open-sans/OpenSans-Bold.woff);
+    font-weight: bold;
+}
 /*section1*/ 
 
 .container1 {
@@ -16,6 +42,9 @@
     }
 
 .btn-primary {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
     color: #fff;
     position: relative;
     background: #fc8f44;
@@ -30,3 +59,12 @@
     background: #f9a870;
     border-color: #fc8f44;
 }    
+
+.container {
+    padding-top: 116px;
+    padding-bottom: 438px;
+}
+.insert-3 {
+    padding-top: 116px;
+    padding-bottom: 438px;
+}
