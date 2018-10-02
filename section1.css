@@ -1,0 +1,32 @@
+/*section1*/ 
+
+.container1 {
+    padding-top: 116px;
+    padding-bottom: 438px;
+}
+
+.image01 {
+    background-image: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-secondary-darken {
+        background: #003c5a;
+        color: #fff;
+    }
+
+.btn-primary {
+    color: #fff;
+    position: relative;
+    background: #fc8f44;
+    border-color: #fc8f44;
+    border-radius: 40px;
+    width: 250px;
+
+    }
+
+.btn-primary:hover {
+    color: #fff;
+    background: #f9a870;
+    border-color: #fc8f44;
+}    
