@@ -1,0 +1,58 @@
+@font-face {
+    font-family: merriweather;
+    src: url(./fonts/merriweather/Merriweather-Regular.woff);
+}
+
+@font-face {
+    font-family: merriweather_bold;
+    src: url(./fonts/merriweather/Merriweather-Bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: merriweather_light;
+    src: url(/fonts/merriweather/Merriweather-Light.woff);
+    font-weight: lighter;
+}
+
+#reasons > h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: merriweather_light;
+    font-size: 40px;  
+}
+
+.para_reasons {
+    font-family: merriweather_light;
+    font-size: 12px;
+}
+
+.titres_section_reasons {
+    margin-bottom: 20px;
+    font-family: merriweather;
+}
+
+.before_planet::before {
+    content: url(./media/earth_globe.png);
+}
+
+.before_graduation::before {
+    content: url(./media/mortarboard.png);
+}
+
+.before_image::before {
+    content: url(./media/attach.png);
+}
+
+.before_briefcase::before {
+    content: url(./media/briefcase.png);
+}
+
+.before_glob::before {
+    content: url(./media/globe.png);
+}
+
+.before_book::before {
+    content: url(./media/open_book.png)
+}
