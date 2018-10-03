@@ -1,11 +1,41 @@
+@font-face {
+    font-family: merriweather;
+    src: url(./fonts/merriweather/Merriweather-Regular.woff);
+}
+
+@font-face {
+    font-family: merriweather_bold;
+    src: url(./fonts/merriweather/Merriweather-Bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: merriweather_light;
+    src: url(/fonts/merriweather/Merriweather-Light.woff);
+    font-weight: lighter;
+}
+
 .navbar{
     background-color: #003C5A;
-    margin: 0;
+}
+
+.nav-link{
+    color: #2379A3;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: "merriweather_bold";
+    font-size: 30px;
 }
 .nav-item{
+    font-family: Arial, Helvetica, sans-serif;
     color: #2379A3;
-
+    font-weight: lighter;
 }
-h1{
+
+.contact-info a{
+    font-family: "merriweather_light";
+    font-size: 20px;
     color: #fff;
+    text-decoration: none;
 }
