@@ -15,21 +15,28 @@
     font-weight: lighter;
 }
 
+/* section "reasons" */
+
 #reasons > h2 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: merriweather_light;
-    font-size: 40px;  
+    font-size: 40px;
+    color: #252525;
 }
 
 .para_reasons {
     font-family: merriweather_light;
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom: 60px;
+    color: #858585;
 }
 
 .titres_section_reasons {
     margin-bottom: 20px;
+    font-size: 22px;
+    color: #555555;
     font-family: merriweather;
 }
 
@@ -41,6 +48,8 @@
     padding-right: 30px;
 }
 
-.container {
-    
+/* Section "our_book"  */
+
+#our_book {
+    background-color: #
 }
