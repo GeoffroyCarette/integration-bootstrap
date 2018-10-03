@@ -1,0 +1,39 @@
+.bg-blue{
+background-color: #003c5a;
+ }
+ .titre{
+color: white;
+margin-bottom: 20px;
+ }
+ .soustitre{
+color:#53a1c7 ;
+margin-bottom: 25px;
+ }
+ .btn-primary{
+background-color: #f18e4b;
+
+}
+.bg-orange{
+background-color:#ed9164;
+}
+.auteur{
+    color: white;
+}
+.texte{
+    color: white;
+}
+.titre2{
+color: white;
+text-align: left;
+justify-content: center;
+}
+
+.section2{
+   text-align: left;
+   justify-content: center;
+   padding: 0;
+   margin: 0%;
+  font-size: 30px;
+  font-weight: bold 1px;
+ 
+}
