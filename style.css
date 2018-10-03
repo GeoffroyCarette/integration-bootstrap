@@ -14,21 +14,33 @@
     src: url(/fonts/merriweather/Merriweather-Light.woff);
     font-weight: lighter;
 }
+/* section header */
 header{
-    background-color: #003C5A;
+    background-color: #003c5a;
 }
-h1{
+header h1{
     font-family: "merriweather_bold";
     color: #ffffff;
+    font-size: 30px;
+}
+.call_info{
+    font-family: "merriweather_light";
+    color : #fff;
+    text-decoration: none;
     font-size: 25px;
 }
+.call_info:hover{
+    color: #E76E33;
+    transition: .500s;
+}
+/* Section footer */
 footer{
     background-color: #272727;
 }
-h3{
+footer h3{
     font-family: "merriweather_bold";
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
 }
 .disclaimer{
     color: #7d7d7d;
@@ -37,7 +49,8 @@ h3{
     color: #ffffff;
 }
 .icon{
-    padding: 1em;
+    padding: .5rem;
+    font-size: 20px;
 }
 .fab:hover{
     color: #E76E33;
@@ -53,4 +66,35 @@ hr{
     background: #3f3935;
     margin: 0;
     
+}
+/* bouton de retour en haut de page */
+.ui-to-top.active {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.ui-to-top {
+    right: 40px;
+    bottom: 40px;
+}
+.ui-to-top {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 46px;
+    color: #FFF;
+    background: #fc8f44;
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    z-index: 20;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+.test_sec{
+    height: 1000px;
 }
