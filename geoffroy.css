@@ -15,6 +15,10 @@
     font-weight: lighter;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* section "reasons" */
 
 #reasons > h2 {
@@ -40,16 +44,15 @@
     font-family: merriweather;
 }
 
-.paragraphe {
-    display: flex;
-}
-
-.paragraphe > div > img {
-    padding-right: 30px;
+.d-flex > div > img {
+    padding-right: 20px;
+    width: 240px;
 }
 
 /* Section "our_book"  */
 
 #our_book {
-    background-color: #
+    /* background-color: #edf4f8; */
+    background-color: grey;
+    margin: 0;
 }
