@@ -1,3 +1,5 @@
+/*fonts*/
+
 @font-face {
     font-family: merriweather;
     src: url(./fonts/merriweather/Merriweather-Regular.woff);
@@ -13,58 +15,101 @@
     font-family: merriweather_light;
     src: url(/fonts/merriweather/Merriweather-Light.woff);
     font-weight: lighter;
-}   
-@font-face {
-font-family: opensans, sans-serif;
-    src: url(./fonts/open-sans/OpenSans-Regular.woff)
-
-} 
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(./fonts/open-sans/OpenSans-Bold.woff);
-    font-weight: bold;
-}
-/*section1*/ 
-
-.container1 {
-    padding-top: 116px;
-    padding-bottom: 438px;
 }
 
-.image01 {
-    background-image: 50% 100%;
+/*media-queries*/
+
+@media (max-width: 991.98px) {
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .btn-center {
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .img-center {
+        display: block;
+        margin: auto;
+    }
+}
+
+/*section1-1*/
+
+#worldmap {
+    background-image: url('media/page01_img01.png');
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .bg-secondary-darken {
-        background: #003c5a;
-        color: #fff;
-    }
+    background-color: #003c5a;
+}
+
+.container {
+    padding-top: 10%;
+    padding-bottom: 400px;
+}
+
+h1 {
+    font-family: merriweather;
+}
+
+h5 {
+   font-size: 25px;
+font-weight: lighter;
+    color: #66b8e0;
+}
+
+/*section1-2*/
+.bg-info {
+    background-color: #edf4f8 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2 {
+    padding-top: 10%;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-family: merriweather;
+}
+
+h3 {
+    font-family: merriweather;
+}
+
+/*buttons*/
 
 .btn-primary {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: #fff;
-    position: relative;
     background: #fc8f44;
     border-color: #fc8f44;
     border-radius: 40px;
-    width: 250px;
+    padding: .875rem 2rem;
 
-    }
+}
 
 .btn-primary:hover {
     color: #fff;
     background: #f9a870;
     border-color: #fc8f44;
-}    
-
-.container {
-    padding-top: 116px;
-    padding-bottom: 438px;
-}
-.insert-3 {
-    padding-top: 116px;
-    padding-bottom: 438px;
 }
