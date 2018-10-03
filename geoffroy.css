@@ -25,7 +25,7 @@ img {
 
 /* section "reasons" */
 
-#reasons > h2 {
+#reasons>h2 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -48,7 +48,7 @@ img {
     font-family: merriweather;
 }
 
-.d-flex > div > img {
+.d-flex>div>img {
     padding-right: 20px;
     width: 240px;
 }
@@ -58,11 +58,6 @@ img {
 #our_book {
     background-color: #edf4f8;
     margin: 0;
-}
-
-.img_our_book {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .margin_paragraphe {
@@ -85,4 +80,38 @@ img {
     font-size: 17px;
     color: #858585;
     font-family: merriweather_light;
+}
+
+.img_width {
+    width: 160px;
+    padding-right: 15px;
+}
+
+.img_our_book {
+    padding-top: 100px;
+}
+
+@media (max-width: 991.98px) {
+    .margin_paragraphe {
+        text-align: center;
+    }
+
+    .img_our_book {
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .div_center {
+        text-align: center;
+    }
+
+    .img_width {
+        width: 80px;
+    }
+
+    .img_our_book {
+        padding-left: 0;
+    }
+
 }
