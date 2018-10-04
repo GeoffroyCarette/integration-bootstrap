@@ -27,7 +27,7 @@ header h1{
 .call_info{
     font-family: "merriweather_light";
     color : #fff;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 25px;
 }
 .call_info:hover{
@@ -41,6 +41,10 @@ header h1{
 }
 header .container{
     padding: 10px;
+}
+header svg{
+    height: 25px;
+    width: auto;
 }
 /*media-queries*/
 
