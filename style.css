@@ -34,6 +34,11 @@ header h1{
     color: #E76E33;
     transition: .500s;
 }
+.phone_icon{
+    width: 30px;
+    height: auto;
+    background-color: none;
+}
 /*media-queries*/
 
 @media (max-width: 991.98px) {
