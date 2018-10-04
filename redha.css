@@ -9,10 +9,24 @@ margin-bottom: 20px;
 color:#53a1c7 ;
 margin-bottom: 25px;
  }
- .btn-primary{
-background-color: #f18e4b;
 
+ .button-style{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    background: #fc8f44;
+    border-color: #fc8f44;
+    border-radius: 40px;
+    padding: .875rem 5rem;
 }
+
+.button-style:hover{
+    color: #fff;
+    background: #f9a870;
+    border-color: #fc8f44;
+}
+
 .bg-orange{
 background-color:#ed9164;
 }
@@ -37,3 +51,19 @@ justify-content: center;
   font-weight: bold 1px;
  
 }
+
+.form-control {
+    border-radius: 40px;
+    width: 100%;
+    height: 50px;
+    padding-right: 225px;
+    padding-left: 225px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.font_style_size {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
