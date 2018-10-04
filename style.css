@@ -39,6 +39,9 @@ header h1{
     height: auto;
     background-color: none;
 }
+header .container{
+    padding: 10px;
+}
 /*media-queries*/
 
 @media (max-width: 991.98px) {
@@ -272,6 +275,9 @@ hr{
     background: #3f3935;
     margin: 0;
     
+}
+footer .container{
+    padding: 10px;
 }
 /* bouton de retour en haut de page */
 .ui-to-top.active {
